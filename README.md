@@ -17,10 +17,14 @@ Un Futoshiki es una cuadrícula de N×N donde hay que colocar los números del 1
 
 ## 4.1. Capturar problema con cámara
 A continuación está un ejemplo del input que espera el programa.
+
 ![Foto1](/Read_me_img/Ejercicio.jpg)
 
 ## 4.2. Solucinar el problema con la herramienta
-Se ejecuta el código del notebook Jupyter, se sube la imagen del problema a la herramienta y se da clic a "Submit" para que el sistema pueda resolverlo.
+1. Se ejecuta el código del notebook Jupyter
+2. Se sube la imagen del problema a la herramienta
+3. Se da clic a "Submit" para que el sistema pueda resolver el puzzle.
+
 ![Foto2](/Read_me_img/ProgramaSolver.png)
 
 # 5. Limitaciones
