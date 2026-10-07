@@ -4,9 +4,9 @@
 Sistema que resuelve un puzzle Futoshiki a partir de una fotografía.
 Se aplica OpenCV y YOLO para leer el tablero, OR-Tools CP-SAT para resolverlo y la solución se dibuja sobre la foto original.
 
-# 2. Qué es Futoshikki
+# 2. Qué es Futoshiki
 
-Un Futoshiki es una cuadrícula de N×N donde hay que colocar los números del 1 al N sin repetirlos en ninguna fila ni columna, respetando los signos de desigualdad (`<`, `>`) dibujados entre celdas contiguas y los dígitos que ya vienen impresos.
+Un Futoshiki es un juego de lógica que consiste en una cuadrícula de N×N donde hay que colocar los números del 1 al N sin repetirlos en ninguna fila ni columna, respetando los signos de desigualdad (`<`, `>`) dibujados entre celdas contiguas y los dígitos que ya vienen impresos.
 
 # 3. Fases del proyecto
 * Visión: Detecta la grilla, corrige la perspectiva, lee los dígitos con YOLO y los signos (regla geométrica) y genera un JSON con el estado inicial. Para este modulo se utiliza OpenCV y Ultralytics YOLO.
