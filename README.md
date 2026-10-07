@@ -31,15 +31,13 @@ A continuación está un ejemplo del input que espera el programa.
 ![Foto1](/Read_me_img/Ejercicio.jpg)
 
 ## 2. Solucinar el problema con la herramienta
-1. Se ejecuta el código del notebook Jupyter
+1. Se ingresa al enlace del desplegable
 2. Se sube la imagen del problema a la herramienta
-3. Se da clic a "Submit" para que el sistema pueda resolver el puzzle.
+3. Automáticamente se resuelve el problema indentificado.
 
 ![Foto2](/Read_me_img/ProgramaSolver.png)
 
 # Limitaciones
-Limitaciones
-
 * La detección necesita que se vea la grilla completa y que el número de celdas sea un cuadrado perfecto de al menos 9.
 * El modelo solo reconoce los dígitos con los que fue entrenado.
 * Los signos se leen con una regla geométrica, sin aprendizaje automático.
